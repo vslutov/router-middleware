@@ -1,0 +1,5 @@
+.*
+*.tgz
+/rollup.config.js
+*.md
+/test
