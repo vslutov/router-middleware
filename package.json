@@ -1,6 +1,6 @@
 {
   "name": "@vslutov/router-middleware",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Router middleware for connected-react-router compatible with redux-batch-middleware",
   "main": "lib/index.js",
   "module": "src/index.js",
