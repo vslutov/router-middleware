@@ -4,6 +4,7 @@
   "description": "Router middleware for connected-react-router compatible with redux-batch-middleware",
   "main": "lib/index.js",
   "module": "src/index.js",
+  "sideEffects": false,
   "scripts": {
     "test": "standard && ava",
     "build": "rollup -c",
