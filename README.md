@@ -5,6 +5,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/vslutov/router-middleware.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://coveralls.io/repos/github/vslutov/router-middleware/badge.svg?branch=master)](https://coveralls.io/github/vslutov/router-middleware?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Router middleware for [connected-react-router](https://github.com/supasate/connected-react-router) compatible with [redux-batch-middleware](https://github.com/mrydengren/redux-batch-middleware)
 
@@ -27,7 +28,7 @@ After:
 import { routerMiddleware } from '@vslutov/router-middleware'
 ```
 
-Now you can disbatch a batch of actions with history methods:
+Now you can dispatch a batch of actions with history methods:
 ```js
 store.dispatch([setSomeValues(value), push(someUrl)])
 ```
