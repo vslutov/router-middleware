@@ -12,7 +12,7 @@ export const routerMiddleware = history => store => next => {
   return action => {
     // location actions may be in batchAction.payload
     if (action.type === batchType) {
-      for (let subAction of action.payload) {
+      for (const subAction of action.payload) {
         mayCallHistory(subAction)
       }
     }
