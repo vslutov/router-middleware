@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/vslutov/router-middleware#readme",
   "devDependencies": {
-    "ava": "^2.0.0",
+    "ava": "^3.0.0",
     "commitizen": "^4.0.3",
     "connected-react-router": "^6.5.2",
     "coveralls": "^3.0.3",
